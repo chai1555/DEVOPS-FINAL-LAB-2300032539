@@ -14,7 +14,7 @@ services:
 
   backend:
     image: chai1555/2300032539-final-backend:latest
-    container_name: springbootproject
+    container_name: springboot
     ports:
       - "30032:2000"
     depends_on:
